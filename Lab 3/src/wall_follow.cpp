@@ -19,7 +19,7 @@ public:
         });
         // define 1 a pub to push changes to /drive topic
         pub_drive_ = this->create_publisher<ackermann_msgs::msg::AckermannDriveStamped>(this->drive_topic, 10);
-        RCLCPP_INFO(this->get_logger(), "AEB ONLINE");
+        RCLCPP_INFO(this->get_logger(), "WALL_FOLLOW ONLINE");
     }
     
 
